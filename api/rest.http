@@ -1,0 +1,27 @@
+### get
+GET http://localhost:8000/user
+
+
+### post
+
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "fname": "Nimesh",
+    "lname": "bista",
+    "email": "asdfasdf@gmail.com",
+    "password": "1234"
+}
+### put
+
+PUT http://localhost:8000/user
+Content-Type: application/json
+
+{
+       "_id": "6393d0ac9c2a55f2814d662f",
+       "lname": "Nick"
+}
+### delete
+
+DELETE  http://localhost:8000/user/6393d62883e84c23f30354c6
